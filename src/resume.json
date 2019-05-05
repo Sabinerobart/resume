@@ -2,7 +2,7 @@
   "basics": {
     "name": "Sabine Robart",
     "label": "Développeuse web",
-    "email": "skok@vova.io",
+    "email": "sabine.robart@protonmail.com",
     "phone": "(609) 666-4644",
     "website": "linkedin.com",
     "summary": "Organized and motivated frontend developer seeking to work closely with a team of experienced engineers to craft a product that has an impact.",
@@ -12,7 +12,7 @@
       "countryCode": "FR",
       "region": "SD"
     },
-    "pdf": "vladimir-skok.pdf"
+    "pdf": "CV--Sabine-Robart.pdf"
   },
   "work": [
     {
@@ -93,5 +93,9 @@
       "HTML",
       "CSS"
     ]
+  },
+  "portfolio": {
+    "projects": [],
+    "pens": []
   }
 }
