@@ -25,6 +25,25 @@ class Hero extends Component {
         ) : (
           ""
         )}
+        <p className="hero__text">
+          <a
+            href={`mailto:${basics.email}?subject=Resume%20Inquiry`}
+            style={{ textDecoration: "none" }}
+          >
+            e-mail
+          </a>
+        </p>
+
+        <p className="hero__text">
+          <a
+            href="https://linkedin.com/in/iamskok"
+            style={{ textDecoration: "none" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {basics.website}
+          </a>
+        </p>
 
         <div className="hero__link-container">
           <a
@@ -37,6 +56,7 @@ class Hero extends Component {
             <img src={logo} className="hero__logo" alt="Made With React Logo" />
           </a>
         </div>
+
         <span role="img" aria-label="Arrow down" className="hero__arrow">
           ⬇️
         </span>
