@@ -11,6 +11,7 @@ import SkillsList from "./components/SkillsList";
 import Card from "./components/Card";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
+import Portfolio from "./components/Portfolio";
 
 class App extends Component {
   render() {
@@ -27,18 +28,18 @@ class App extends Component {
             />
             <Route
               exact
-              path={"/Skills"}
-              render={() => <SkillsList resumeObj={resume} />}
-            />
-            <Route
-              exact
               path={"/Education"}
               render={() => <Education education={resume.education[0]} />}
             />
             <Route
               exact
-              path={"/Contact"}
-              render={() => <Contact info={resume.basics} />}
+              path={"/Skills"}
+              render={() => <SkillsList resumeObj={resume} />}
+            />
+            <Route
+              exact
+              path={"/Portfolio"}
+              render={() => <Portfolio info={resume.basics} />}
             />
           </Switch>
 
@@ -48,42 +49,37 @@ class App extends Component {
               to="/Experience"
               className="nav__btn"
               activeStyle={{
-                borderBottom: "2px solid #9735c7",
-                borderTop: "2px solid transparent"
+                borderBottom: "2px solid #9735c7"
               }}
             >
               Experience
             </NavLink>
             <NavLink
+              to={"/Education"}
+              className="nav__btn"
+              activeStyle={{
+                borderBottom: "2px solid #9735c7"
+              }}
+            >
+              Education
+            </NavLink>
+            <NavLink
               to={"/Skills"}
               className="nav__btn"
               activeStyle={{
-                borderBottom: "2px solid #9735c7",
-                borderTop: "2px solid transparent"
+                borderBottom: "2px solid #9735c7"
               }}
             >
               Skills
             </NavLink>
             <NavLink
-              to={"/Education"}
+              to={"/Portfolio"}
               className="nav__btn"
               activeStyle={{
-                borderBottom: "2px solid #9735c7",
-                borderTop: "2px solid transparent"
+                borderBottom: "2px solid #9735c7"
               }}
             >
-              Education
-            </NavLink>
-
-            <NavLink
-              to={"/Contact"}
-              className="nav__btn"
-              activeStyle={{
-                borderBottom: "2px solid #9735c7",
-                borderTop: "2px solid transparent"
-              }}
-            >
-              Contact
+              Portfolio
             </NavLink>
           </nav>
         </div>
