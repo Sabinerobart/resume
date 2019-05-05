@@ -9,7 +9,9 @@ class Card extends Component {
     return (
       <div className="card__container">
         <div className="card__content">
-          <h1>Experience</h1>
+          <h1>
+            <span>.</span>Experience
+          </h1>
           <div className="separation" />
           {work.map((key, index) => {
             return (
