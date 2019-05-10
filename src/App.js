@@ -5,17 +5,19 @@ import {
   NavLink,
   Switch
 } from "react-router-dom";
+
 import "./App.scss";
 import Hero from "./components/Hero";
 import SkillsList from "./components/SkillsList";
-import Card from "./components/Card";
+import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 class App extends Component {
   render() {
     const resume = this.props.resumeJson;
+    const activeColor = "#f7f7f7";
     return (
       <Router>
         <div className="app">
@@ -23,13 +25,13 @@ class App extends Component {
           <Switch>
             <Route
               exact
-              path={"/Experience"}
-              render={() => <Card resumeObj={resume} />}
+              path={"/"}
+              render={() => <Experience resumeObj={resume} />}
             />
             <Route
               exact
               path={"/Education"}
-              render={() => <Education education={resume.education[0]} />}
+              render={() => <Education education={resume.education} />}
             />
             <Route
               exact
@@ -39,47 +41,66 @@ class App extends Component {
             <Route
               exact
               path={"/Portfolio"}
-              render={() => <Portfolio info={resume.basics} />}
+              render={() => <Portfolio portfolio={resume.portfolio} />}
+            />
+            <Route
+              exact
+              path={"/Contact"}
+              render={() => <Contact info={resume.basics.social} />}
             />
           </Switch>
 
-          <nav expand="sm" className="nav__container">
+          <nav className="nav__container">
             <NavLink
               exact
-              to="/Experience"
+              to="/"
               className="nav__btn"
               activeStyle={{
-                borderBottom: "2px solid #9735c7"
+                color: activeColor,
+                borderColor: activeColor
               }}
             >
-              Experience
+              Expérience
             </NavLink>
             <NavLink
               to={"/Education"}
               className="nav__btn"
               activeStyle={{
-                borderBottom: "2px solid #9735c7"
+                color: activeColor,
+                borderColor: activeColor
               }}
             >
-              Education
+              Formation
             </NavLink>
             <NavLink
               to={"/Skills"}
               className="nav__btn"
               activeStyle={{
-                borderBottom: "2px solid #9735c7"
+                color: activeColor,
+                borderColor: activeColor
               }}
             >
-              Skills
+              Compétences
             </NavLink>
             <NavLink
               to={"/Portfolio"}
               className="nav__btn"
               activeStyle={{
-                borderBottom: "2px solid #9735c7"
+                color: activeColor,
+                borderColor: activeColor
               }}
             >
               Portfolio
+            </NavLink>
+            <NavLink
+              to={"/Contact"}
+              className="nav__btn"
+              activeStyle={{
+                color: activeColor,
+                borderColor: activeColor
+              }}
+            >
+              Contact
             </NavLink>
           </nav>
         </div>
