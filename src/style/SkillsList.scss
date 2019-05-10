@@ -1,0 +1,74 @@
+@import "../index";
+
+.skills-list__modal {
+  padding: 3vh * 2 0;
+  h3,
+  p {
+    font-weight: 700;
+  }
+  h3 {
+    font-size: calc(1rem + 1vh);
+    font-family: "quicksand", sans-serif;
+    margin-bottom: 5vh;
+    margin-left: 3vw;
+    padding: 1rem;
+    color: rgba($bl, 0.5);
+    border-bottom: 5px solid $bl;
+  }
+  p {
+    font-family: "Quicksand", sans-serif;
+    color: $coco;
+    text-align: left;
+    padding: 1vh 0;
+  }
+}
+
+.skill {
+  border-radius: 50px 0 0 50px;
+}
+
+@for $i from 1 through length($colors) {
+  .skill-row:nth-of-type(#{$i}) {
+    animation: row-reveal 1 +#{$i}s;
+  }
+  @keyframes row-reveal {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .skill-row:hover:nth-child(#{length($colors)}n + #{$i}) {
+    div:first-child p {
+      opacity: 0.5;
+      color: nth($colors, $i);
+      transition: 0.8s;
+    }
+    div:nth-child(2) {
+      background: linear-gradient(
+        65deg,
+        nth($colors, $i),
+        transparent 80%,
+        transparent
+      );
+      p {
+        color: $wh;
+      }
+    }
+  }
+}
+
+.skill-number p {
+  font-family: "devan", sans-serif;
+  color: rgba($coco, 0.5);
+  text-align: right;
+  font-size: calc(1.5rem + 2vw);
+  line-height: 1.4;
+}
+
+@media (max-width: 990px) {
+  .skills-list__container {
+    background: none;
+  }
+}

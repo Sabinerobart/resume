@@ -1,0 +1,25 @@
+@import "../index";
+
+.contact__container {
+  height: 100vh;
+}
+
+.contact__modal {
+  background: url("../pictures/watercolor1.png");
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.contact-info {
+  border: 5px solid $bl;
+  background: $wh;
+  padding: 5vw;
+  margin: 5vh auto;
+  a {
+    color: $bl;
+  }
+  a:hover,
+  a:focus {
+    color: rgba($main-color, 0.7);
+  }
+}
