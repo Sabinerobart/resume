@@ -4,13 +4,20 @@ class Job extends Component {
   render() {
     const { details, colors } = this.props;
     return (
-      <div className="job__container" style={{ background: colors }}>
+      <div
+        className="job__container"
+        // style={{ borderLeft: `10px solid ${colors}` }}
+      >
         <div className="job">
           <div className="job__header">
-            <h3>{details.company}</h3>
-            <h4>{details.position}</h4>
+            <h3>
+              {details.company}
+              <span style={{ color: colors, fontSize: "200%" }}>.</span>
+            </h3>
+            <h5>{details.position}</h5>
           </div>
 
+          <div className="separation-2" style={{ background: colors }} />
           <div className="job__date">
             {details.current
               ? `Current Job as of ${details.startDate}`
