@@ -1,16 +1,21 @@
 {
   "basics": {
-    "name": "Sabine Robart",
+    "firstName": "Sabine",
+    "lastName": "Robart",
     "label": "Développeuse web",
-    "email": "sabine.robart@protonmail.com",
-    "phone": "(609) 666-4644",
-    "website": "linkedin.com",
-    "summary": "Organized and motivated frontend developer seeking to work closely with a team of experienced engineers to craft a product that has an impact.",
+    "phone": "",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/sabinerobart/",
+      "email": "sabine.robart@protonmail.com",
+      "github": "https://github.com/Sabinerobart",
+      "twitter": "https://twitter.com/Sabinerobart",
+      "codepen": "https://codepen.io/_Sabine/#"
+    },
+    "summary": "J'ai décidé de me reconvertir afin de m'orienter vers un métier-passion : formée au développement web front-end && back-end à la Wild Code School, je suis disponible à partir de août || septembre 2019 pour un stage de 4 à 6 mois.",
+    "specialties": ["React", "NodeJS"],
     "location": {
       "postalCode": "59000",
-      "city": "Lille, France",
-      "countryCode": "FR",
-      "region": "SD"
+      "city": "Lille, France"
     },
     "pdf": "CV--Sabine-Robart.pdf"
   },
@@ -73,29 +78,107 @@
   ],
   "education": [
     {
-      "institution": "The Russian Presidential Academy of National Economy and Public Administration (RANEPA)",
-      "area": "Business Administration and Management",
-      "studyType": "Master's degree",
-      "endDate": "2013"
+      "formation": "Développeur d'applications web / web-mobile",
+      "field": "",
+      "institution": "Wild Code School",
+      "studyType": "Formation effectuée à la",
+      "city": "Lille",
+      "endDate": "2019"
+    },
+    {
+      "formation": "Création d'Entreprise",
+      "field": "",
+      "institution": "BGE Hauts-de-France",
+      "studyType": "Formation effectuée à la",
+      "city": "Lille",
+      "endDate": "2018"
+    },
+    {
+      "formation": "Google Ateliers Numériques",
+      "field": "",
+      "institution": "",
+      "studyType": "Ateliers en ligne",
+      "city": "",
+      "endDate": "en cours",
+      "options": "Web marketing"
+    },
+    {
+      "formation": "Licence 3",
+      "field": "Sciences Humaines et Sociales",
+      "institution": "l'Université Lille III",
+      "studyType": "Licence 3 Sciences de l'Education obtenue à ",
+      "city": "Villeneuve d'Ascq",
+      "endDate": "2006"
+    },
+    {
+      "formation": "DEUG",
+      "field": "LCE Anglais",
+      "institution": "ULCO",
+      "studyType": "DEUG Lettres et Civilisations Etrangères obtenu à l'",
+      "city": "Boulogne/Mer",
+      "endDate": "2003-2004"
+    },
+    {
+      "formation": "Bac Littéraire",
+      "field": "",
+      "institution": "Lycée Mariette",
+      "studyType": "Baccalauréat obtenu au",
+      "city": "Boulogne/Mer",
+      "endDate": "2002",
+      "options": "Option Arts Plastiques"
     }
   ],
   "skills": {
     "keywords": [
-      "Javascript",
-      "ES6",
       "React",
-      "Node",
+      "Javascript - ES6",
+      "Git - Github",
+      "NodeJS",
       "Sass",
-      "Git",
-      "REST APIs",
       "Linux",
-      "Bootstrap / Reactstrap",
-      "HTML",
-      "CSS"
+      "API",
+      "Reactstrap - Bootstrap",
+      "HTML - CSS"
+    ],
+    "softSkills": [
+      "Fiable",
+      "Curieuse",
+      "Capable de travailler en équipe",
+      "Proactive",
+      "Attentive aux details - Patiente",
+      "Créative"
     ]
   },
   "portfolio": {
-    "projects": [],
-    "pens": []
+    "projects": [
+      {
+        "projectName": "Moov'in Lille",
+        "projectUrl": "https://www.presse-citron.net/",
+        "descr": "stuff"
+      },
+      {
+        "projectName": "NOR'Digital",
+        "projectUrl": "https://www.presse-citron.net/",
+        "desc": "stuff also"
+      }
+    ],
+    "pens": [
+      {
+        "dataSlugHash": "xmoRqp",
+        "dataPenTitle": "Folding Profile Gallery",
+        "penHref": "https://codepen.io/_Sabine/full/xmoRqp/",
+        "penImg": "https://screenshot.codepen.io/2280907.xmoRqp.4ab1c6b7-ef70-4992-a175-95058a182d7f.png"
+      },
+      {
+        "dataSlugHash": "xmoRqp",
+        "dataPenTitle": "Pouet",
+        "penHref": "https://codepen.io/_Sabine/full/xmoRqp/"
+      },
+      {
+        "dataSlugHash": "xmoRqp",
+        "dataPenTitle": "Pouet Pouet",
+        "penHref": "https://codepen.io/_Sabine/full/xmoRqp/"
+      }
+    ]
   }
 }
