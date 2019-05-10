@@ -1,9 +1,9 @@
 {
-  "name": "react-resume",
-  "author": "Vladimir Skok <skok@vova.io>",
+  "name": "resume",
+  "author": "",
   "version": "0.2.0",
-  "license": "MIT",
-  "homepage": "https://iamskok.github.io/react-resume/",
+  "license": "",
+  "homepage": "https://github.com/Sabinerobart/resume",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && cp -r build/* . && cp -r public/* .",
