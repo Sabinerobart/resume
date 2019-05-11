@@ -2,6 +2,6 @@
 
 ## Todo
 
-- this resume
 - favicon
-- mailto : email adress + subject
+- hidden separation in skills section
+- push / deploy on githubpages
