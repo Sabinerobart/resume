@@ -48,7 +48,7 @@ class Portfolio extends React.Component {
                   this.toggle("1");
                 }}
               >
-                Projects
+                Projets
               </NavLink>
             </NavItem>
             <NavItem>
@@ -58,31 +58,33 @@ class Portfolio extends React.Component {
                   this.toggle("2");
                 }}
               >
-                Snippets
+                Idées
               </NavLink>
             </NavItem>
           </Nav>
 
           <TabContent activeTab={this.state.activeTab}>
-            <TabPane tabId="1" fade={true}>
+            <TabPane tabId="1">
               <Row>
                 {projects.map((project, i) => {
                   const img = [
                     require("../pictures/Project2.jpg"),
                     require("../pictures/Project1.jpg")
                   ];
+                  const projectNumber = `project ${i}`;
                   return (
                     <a
                       key={i}
                       href={project.projectUrl}
                       target="_blank"
-                      className="col-10 p-0 my-4 mx-auto"
+                      rel="noopener noreferrer"
+                      className="col-12 col-md-10 p-0 my-4 mx-auto"
                     >
                       <div className="picture-container">
                         <img
                           className="portfolio-picture"
                           src={img[i]}
-                          alt="cook"
+                          alt={projectNumber}
                         />
                         <div className="overlay">
                           <img
@@ -101,6 +103,13 @@ class Portfolio extends React.Component {
             </TabPane>
             <TabPane tabId="2">
               <Row>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tenetur voluptate voluptates adipisci aspernatur sequi eveniet
+                  minima quasi quisquam incidunt sapiente, corporis reiciendis
+                  praesentium. Assumenda fuga provident ab similique nihil
+                  asperiores?
+                </p>
                 {pens.map((pen, i) => {
                   return (
                     <React.Fragment>
@@ -122,12 +131,12 @@ class Portfolio extends React.Component {
                           margin: "1rem auto",
                           padding: "1rem"
                         }}
-                        data-pen-title={pen.dataPenTitle[i]}
+                        data-pen-title={pen.dataPenTitle}
                       >
                         <span>
                           See the Pen &nbsp;
-                          <a href={pen.penHref[i]}>{pen.dataPenTitle}</a>&nbsp;
-                          by Sabine Robart (
+                          <a href={pen.penHref}>{pen.dataPenTitle}</a>&nbsp; by
+                          Sabine Robart (
                           <a href="https://codepen.io/_Sabine">@_Sabine</a>) on
                           <a href="https://codepen.io"> CodePen </a>.
                         </span>
@@ -139,55 +148,6 @@ class Portfolio extends React.Component {
                     </React.Fragment>
                   );
                 })}
-
-                {/* {pens.map((pen, i) => {
-                  return (
-                    <a
-                    // class="codepen"
-                    // data-height="365"
-                    // data-theme-id="0"
-                    // data-default-tab="css,result"
-                    // data-user="_Sabine"
-                    // data-slug-hash={pen.dataSlugHash[i]}
-                    // style={{
-                    //   height: "365px",
-                    //   boxSizing: "border-box",
-                    //   display: "flex",
-                    //   alignItems: "center",
-                    //   justifyContent: "center",
-                    //   border: "2px solid #fafafa",
-                    //   margin: "1em 0",
-                    //   padding: "1rem"
-                    // }}
-                    // data-pen-title={pen.dataPenTitle[i]}
-                    >
-                      <img src={pen.penImg} />
-                      <span>
-                        See the Pen
-                        <a
-                          href={pen.penHref[i]}
-                          className="links"
-                          style={{ padding: "0 .5rem" }}
-                        >
-                          {pen.dataPenTitle}
-                        </a>
-                        by Sabine Robart (
-                        <a className="links" href="https://codepen.io/_Sabine">
-                          @_Sabine
-                        </a>
-                        ) on
-                        <a className="links" href="https://codepen.io">
-                          CodePen
-                        </a>
-                        .
-                      </span>
-                      <script
-                        async
-                        src="https://static.codepen.io/assets/embed/ei.js"
-                      />
-                    </a>
-                  );
-                })} */}
               </Row>
             </TabPane>
           </TabContent>

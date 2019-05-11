@@ -3,7 +3,6 @@ import Skill from "./Skill";
 import "../style/SkillsList.scss";
 import "../App.scss";
 import { Col } from "reactstrap";
-// import Footer from "./Footer";
 
 class SkillsList extends Component {
   render() {
@@ -29,7 +28,6 @@ class SkillsList extends Component {
             ))}
           </Col>
         </div>
-        {/* <Footer /> */}
       </Col>
     );
   }

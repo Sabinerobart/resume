@@ -1,16 +1,8 @@
 import React from "react";
 import "../style/Education.scss";
 import "../App.scss";
-// import Footer from "./Footer";
 
-import {
-  Card,
-  CardTitle,
-  CardGroup,
-  CardSubtitle,
-  CardBody,
-  Col
-} from "reactstrap";
+import { CardTitle, CardGroup, CardSubtitle, CardBody, Col } from "reactstrap";
 
 class Education extends React.Component {
   render() {
