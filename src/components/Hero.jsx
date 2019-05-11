@@ -58,6 +58,7 @@ class Hero extends Component {
                 href="https://wildcodeschool.fr/"
                 className="hvr-underline-from-left"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Wild Code School
               </a>
