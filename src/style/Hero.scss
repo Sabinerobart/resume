@@ -1,0 +1,252 @@
+@import "../index";
+
+.app .hero {
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: $wh;
+  background: url("../pictures/full-bloom.png"), rgba($main-color, 0.6);
+}
+
+.business-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.front {
+  h1 {
+    font-family: "bevan", serif;
+    font-size: calc(1.5rem + 2vh);
+    margin: 1rem 0;
+    text-shadow: 0.2rem 0.2rem 0.5rem fade-out(black, 0.8);
+  }
+  img {
+    opacity: 0.7;
+    border: 2px solid #9a0fe0;
+    margin: 0;
+  }
+}
+
+.business-card h1,
+h2 {
+  background: linear-gradient(138deg, #a52cd7, #6d92e7, #c26de7, #b30bac);
+  background-size: 600% 600%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: background 15s ease infinite;
+}
+
+@keyframes background {
+  0%,
+  100% {
+    background-position: 0% 13%;
+  }
+  50% {
+    background-position: 100% 88%;
+  }
+}
+
+.rotate .fa-redo-alt {
+  position: absolute;
+  font-size: calc(0.8rem + 0.5vw);
+  top: 82%;
+  left: 91%;
+  color: rgba($wh, 0.15);
+}
+
+.business-card:hover .flip {
+  transform: rotateX(180deg) translate3d(0, 0, 0);
+}
+
+.flip {
+  transform-style: preserve-3d;
+  transition: all 0.7s ease-in-out;
+  perspective: 1000px;
+}
+
+.front,
+.back {
+  box-shadow: 0.5rem 0.5rem 1.5rem 0 rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: #201c29;
+  padding: 1vh;
+}
+
+.business-card .back {
+  transform: rotateX(-180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.back {
+  letter-spacing: 2px;
+  text-align: center;
+  h2 {
+    font-size: calc(1rem + 1.4vh);
+    margin: calc(0.5rem + 0.3vw);
+    font-weight: 700;
+    font-family: "quicksand", sans-serif;
+  }
+  h3 {
+    color: rgba($wh, 0.6);
+    font-weight: 300;
+    font-size: calc(0.6rem + 1vh);
+    margin: calc(0.2rem + 0.7vw);
+  }
+}
+
+.line {
+  width: 2rem;
+  height: 2px;
+  background: fade-out(#fff, 0.6);
+  margin: 1rem auto;
+}
+
+.social {
+  font-size: calc(0.8rem + 0.5vw);
+  color: fade-out(#fff, 0.6);
+  a {
+    color: rgba($wh, 0.5);
+    padding: 0 0.5rem;
+    &:hover {
+      color: fade-out(#fff, 0.3);
+      cursor: pointer;
+    }
+  }
+}
+
+.hero__modal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4vh;
+}
+
+.hero__summary {
+  margin: calc(1rem + 3vw) 0;
+  p,
+  a {
+    font-size: calc(0.8rem + 0.4vw);
+  }
+  h4 span {
+    font-size: calc(0.6rem + 0.4vw);
+  }
+}
+
+.links {
+  align-self: flex-end;
+  margin: 4px 0;
+  color: rgba($wh, 0.8);
+  text-decoration: none;
+  transition: 0.4s;
+  span {
+    font-size: calc(0.8rem + 0.2vw);
+    border-bottom: 1px dotted rgba($wh, 0.8);
+  }
+  img {
+    transition: 0.4s;
+    margin-right: 1rem;
+  }
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $wh;
+    span {
+      border-bottom: 1px solid $wh;
+    }
+    img {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.made-with {
+  font-size: 0.8rem;
+  color: $wh;
+  margin-top: 5vh;
+  align-self: center;
+}
+
+.hero__heart,
+.hero__react-logo {
+  height: 25px;
+}
+
+.hero__heart {
+  margin: 0 0.2rem;
+  animation: 3s pulse infinite;
+  opacity: 0.7;
+}
+
+@keyframes pulse {
+  40% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(1);
+  }
+}
+
+.hero__react-logo,
+.rotate .fa-redo-alt {
+  animation: hero-logo infinite 20s linear;
+}
+
+@keyframes hero-logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero__arrow {
+  display: none;
+  position: absolute;
+  left: 10vw;
+  bottom: 10vh;
+  font-size: 40px;
+  animation: hero-arrow 1.5s infinite both;
+}
+
+@keyframes hero-arrow {
+  from {
+    opacity: 0.25;
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale3d(1.15, 1.15, 1.15);
+  }
+  to {
+    opacity: 0.25;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/*
+* MEDIA QUERIES
+*/
+@media (max-width: 990px) {
+  .hero,
+  .card__container,
+  .job__container,
+  .education__modal {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero__arrow {
+    display: inline-block;
+  }
+}

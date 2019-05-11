@@ -1,0 +1,57 @@
+@import "../index";
+
+.contact__container {
+  height: 100vh;
+}
+
+.contact__modal {
+  display: flex;
+  margin: 5vh 0;
+  background: url("../pictures/tree.png");
+  /*Photo by Ben Klea on Unsplash*/
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  a {
+    margin: 1vh 0;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    i,
+    p {
+      color: rgba($wh, 0.8);
+      transition: 0.2s;
+    }
+    p {
+      font-size: calc(0.8rem + 0.2vw);
+    }
+    i {
+      font-size: 1.5rem;
+      padding: 0 1rem;
+    }
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    i {
+      color: rgba($sec-color, 0.9);
+    }
+    p {
+      color: $wh;
+    }
+  }
+}
+
+.contact__box {
+  padding: 5vw 3vw;
+  background: rgba($bl, 0.75);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 660px) {
+  .contact__default-box {
+    display: none;
+  }
+}

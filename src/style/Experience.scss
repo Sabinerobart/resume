@@ -1,0 +1,58 @@
+@import "../index";
+
+.card-group .card {
+  border-radius: 0;
+}
+
+/*
+* JOB
+*/
+
+.job__container {
+  justify-content: center;
+  align-items: flex-start;
+  padding: calc(0.5rem + 2vw);
+  color: $bl;
+  background: rgba($wh, 0.5);
+  border: $border;
+  margin: 2vh 0;
+  box-shadow: 0.5rem 0.5rem 1.5rem rgba($bl, 0.2);
+}
+
+.job__header {
+  h3 {
+    font-family: "Bevan", serif;
+  }
+  span {
+    font-family: "nunito", sans-serif;
+    vertical-align: sub;
+  }
+  h5 {
+    font-weight: 600;
+  }
+}
+
+.job__date {
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.separation-2 {
+  margin-bottom: 3vh;
+}
+
+.job__paragraph {
+  font-style: italic;
+}
+
+.job__list li {
+  font-size: calc(0.9rem + 0.2vw);
+}
+
+@media (max-width: 990px) {
+  .job__container {
+    margin: 5vh auto;
+    box-shadow: 0.5rem 0.5rem 1rem rgba($bl, 0.4);
+  }
+}

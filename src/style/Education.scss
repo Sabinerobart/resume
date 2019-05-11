@@ -1,0 +1,52 @@
+@import "../index";
+
+.education__modal {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-color: $sec-color rgba(0, 0, 0, 0.1);
+  scrollbar-width: thin;
+  padding: 15vh 0;
+  background: url("../pictures/watercolor4.png");
+  background-size: cover;
+  h4 {
+    font-size: calc(1rem + 0.2vw);
+    padding: 1rem;
+    color: $wh;
+    font-weight: bold;
+  }
+}
+
+.education__card {
+  background: rgba($wh, 0.8);
+  border: $border;
+  display: inline-block;
+  box-shadow: 0.5rem 0.5rem 1.5vh rgba($bl, 0.2);
+}
+
+.education__subheader {
+  padding: 1rem;
+  h5 {
+    font-size: calc(0.8rem + 0.2vw);
+  }
+  h6 {
+    font-size: calc(0.7rem + 0.3vw);
+  }
+}
+
+.card-subtitle {
+  font-style: italic;
+  font-size: calc(0.6rem + 0.2vw);
+  color: rgb(109, 109, 109);
+  text-align: right;
+  padding-right: 1rem;
+}
+
+@media (max-width: 640px) {
+  .education__modal {
+    padding: 0;
+    background: none;
+  }
+}

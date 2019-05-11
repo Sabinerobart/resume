@@ -1,0 +1,179 @@
+{
+  "basics": {
+    "firstName": "Sabine",
+    "lastName": "Robart",
+    "label": "Développeuse web",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/sabinerobart/",
+      "email": "sabine.robart@protonmail.com",
+      "github": "https://github.com/Sabinerobart",
+      "twitter": "https://twitter.com/Sabinerobart",
+      "codepen": "https://codepen.io/_Sabine/#",
+      "phone": "+33606325507"
+    },
+    "summary": "J'ai décidé de me reconvertir afin de m'orienter vers un métier-passion : formée au développement web front-end && back-end à la Wild Code School, je suis disponible à partir de août || septembre 2019 pour un stage de 4 à 6 mois.",
+    "specialties": ["JavaScript", "React", "NodeJS"],
+    "location": {
+      "postalCode": "59000",
+      "city": "Lille, France"
+    },
+    "pdf": "CV--Sabine-Robart.pdf"
+  },
+  "work": [
+    {
+      "company": "Wild Code School",
+      "current": true,
+      "position": "Développeuse web",
+      "startDate": "Février 2019",
+      "endDate": "Aujourd'hui",
+      "summary": "Dans le cadre de ma formation à la Wild Code School :",
+      "highlights": [
+        "Divers projets utilisant React, JavaScript, ES6, Sass, NodeJS.",
+        "Connaissance des bonnes pratiques du développement web : code propre, facilement maintenable.",
+        "Travail d'équipe avec utilisation de Git | Git Workflow.",
+        "Méthode agile | SCRUM.",
+        "Projets visibles dans la section 'Portfolio'."
+      ]
+    },
+    {
+      "company": "Freelance",
+      "current": false,
+      "position": "Garde d'enfants à domicile",
+      "website": "",
+      "startDate": "2006",
+      "endDate": "2018",
+      "summary": "Participation à l'éducation de jeunes enfants à travers les soins quotidiens et des activités éducatives :",
+      "highlights": [" Créativité", "Multi-tasking", "Résolution de problèmes."]
+    },
+    {
+      "company": "Animatrice en CLSH",
+      "current": false,
+      "position": "Centres de loisirs de Lille - Hellemmes - Wasquehal - Dannes",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "2008",
+      "summary": "Prise en charge d’activités de groupes :",
+      "highlights": [
+        "Travail d’équipe",
+        "Autonomie",
+        "Responsabilité",
+        "Organisation"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "formation": "Développeur d'applications web / web-mobile",
+      "field": "",
+      "institution": "Wild Code School",
+      "studyType": "Formation effectuée à la",
+      "city": "Lille",
+      "endDate": "2019",
+      "options": "Pédagogie hybride : en présentiel + plateforme en ligne pour un apprentissage en autonomie - réalisation de 3 projets (dont 1 projet réel) - entrainement sous forme de hackathons, dojos"
+    },
+    {
+      "formation": "Création d'Entreprise",
+      "field": "",
+      "institution": "BGE Hauts-de-France",
+      "studyType": "Formation effectuée à la",
+      "city": "Lille",
+      "endDate": "2018",
+      "options": "Etude de marché - stratégie commerciale web marketing & communication – gestion financière - business plan"
+    },
+    {
+      "formation": "Google Ateliers Numériques",
+      "field": "",
+      "institution": "",
+      "studyType": "Ateliers en ligne",
+      "city": "",
+      "endDate": "en cours",
+      "options": "Web marketing"
+    },
+    {
+      "formation": "Licence 3",
+      "field": "Sciences Humaines et Sociales",
+      "institution": "l'Université Lille III",
+      "studyType": "Licence 3 Sciences de l'Education obtenue à ",
+      "city": "Villeneuve d'Ascq",
+      "endDate": "2006"
+    },
+    {
+      "formation": "DEUG",
+      "field": "LCE Anglais",
+      "institution": "ULCO",
+      "studyType": "DEUG Lettres et Civilisations Etrangères obtenu à l'",
+      "city": "Boulogne/Mer",
+      "endDate": "2003-2004"
+    },
+    {
+      "formation": "Bac Littéraire",
+      "field": "",
+      "institution": "Lycée Mariette",
+      "studyType": "Baccalauréat obtenu au",
+      "city": "Boulogne/Mer",
+      "endDate": "2002",
+      "options": "Option Arts Plastiques"
+    }
+  ],
+  "skills": {
+    "keywords": [
+      "React",
+      "Javascript - ES6",
+      "Git - Github",
+      "NodeJS",
+      "Sass",
+      "API",
+      "Reactstrap - Bootstrap",
+      "HTML - CSS",
+      "Linux",
+      "Outils de graphisme (Photoshop - Figma)"
+    ],
+    "softSkills": [
+      "Fiable",
+      "Curieuse",
+      "Capable de travailler en équipe",
+      "Proactive",
+      "Attentive aux details - Patiente",
+      "Créative",
+      "Inspirée par le Web Design",
+      "Intéressée par le UX-UI"
+    ]
+  },
+  "portfolio": {
+    "_comment": "Pictures for the projects can be found in an array in the portfolio.jsx component",
+    "projects": [
+      {
+        "projectName": "Moov'in Lille",
+        "projectUrl": "https://github.com/Sabinerobart/moov-in-lille",
+        "descr": "Réalisation d’une application web donnant la disponibilité des vélos en location sur la métropole lilloise - Données : Utilisation d’API existante (v’lille) et création d’API pour la gestion des utilisateurs et des favoris - Cartographie : Géolocalisation + Utilisation de librairies et plugins dédiés (Leaflet – React-leaflet – Geocoder) - Gestion de projet en équipe selon une méthode agile : rôles de Product Owner | Scrum Master"
+      },
+      {
+        "projectName": "NOR'Digital",
+        "projectUrl": "https://github.com/Sabinerobart/wcs-lille-0219-projet1-groupe3_v2",
+        "descr": "Réalisation d’un site statique permettant de présenter l’écosystème numérique lillois. Ce projet m'a permis de consolider mes connaissances dans les technologies de base (HTML/CSS/Bootstrap – Javascript Vanilla), et de m'exercer à la réalisation d'un projet de groupe : travail d’équipe (grâce à l'utilisation de Git/Github/Git Workflow) – mise en place de la méthode agile (daily standup/rétrospectives) – présentation du projet devant une audience"
+      },
+      {
+        "projectName": "Site Personnel",
+        "projectUrl": "https://github.com/Sabinerobart/resume",
+        "descr": "Ce site fait office à la fois de CV en ligne et de mise en pratique des technologies que j'ai apprises. Construit avec React, les informations proviennent d'un fichier json, ce qui permettra une rapide mise à jour au fur et à mesure de l'évolution de ma carrière. De ce fait, il fait aussi office de template, disponible sur Github."
+      }
+    ],
+    "pens": [
+      {
+        "dataSlugHash": "xmoRqp",
+        "dataPenTitle": "Folding Profile Gallery",
+        "penHref": "https://codepen.io/_Sabine/full/xmoRqp/"
+      },
+      {
+        "dataSlugHash": "GPwyro",
+        "dataPenTitle": "Sliding Notifications Card",
+        "penHref": "https://codepen.io/_Sabine/full/GPwyro"
+      },
+      {
+        "dataSlugHash": "yZYrNN",
+        "dataPenTitle": "Email Icon Animation",
+        "penHref": "https://codepen.io/_Sabine/full/yZYrNN"
+      }
+    ]
+  }
+}

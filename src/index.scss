@@ -1,0 +1,30 @@
+$main-color: #091d72;
+$sec-color: #866de7;
+$third-color: #6d92e7;
+$pink: #c26de7;
+$wh: #f7f7f7;
+$bl: #201c29;
+$coco: #c0c0c0;
+$border: 4px solid $bl;
+
+$colors: #432fd6, #a52cd7, #6d92e7, #c26de7, #b30bac, #432fd6, #a52cd7, #6d92e7,
+  #c26de7, #b30bac;
+
+$faded-colors: rgba($main-color, 0.9), rgba($sec-color, 0.9),
+  rgba($third-color, 0.9);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scrollbar-color: /*#4c35a8*/ transparent rgba(0, 0, 0, 0);
+  scrollbar-width: thin;
+}
+
+::selection {
+  background: #432fd6;
+  color: $wh;
+}
