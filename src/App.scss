@@ -31,8 +31,32 @@
 }
 
 /*
+* CONTAINERS
+*/
+
+.app .hero,
+.card__container,
+.portfolio__container,
+.overlay,
+.contact__container {
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.job__container,
+.skills-list__modal,
+.education__modal,
+.portfolio__content,
+.contact__modal {
+  width: 95%;
+}
+
+/*
 * FONTS
 */
+
 * {
   font-family: "kendrick", sans-serif;
   font-size: 1.1rem;
@@ -76,6 +100,7 @@ h1 span {
 /*
  * NAV
  */
+
 .nav__container {
   position: fixed;
   z-index: 9000;
@@ -104,6 +129,10 @@ h1 span {
   }
 }
 
+/*
+* DECORATIVE LINE
+*/
+
 .separation,
 .separation-2 {
   background: $sec-color;
@@ -130,25 +159,9 @@ h1 span {
   }
 }
 
-.app .hero,
-.card__container,
-.skills-list__container,
-.portfolio__container,
-.overlay,
-.contact__container {
-  height: 100vh;
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.job__container,
-.skills-list__modal,
-.education__modal,
-.portfolio__content,
-.contact__modal {
-  width: 95%;
-}
+/*
+* GENERAL LINKS
+*/
 
 .hvr-underline-from-left {
   display: inline-block;
