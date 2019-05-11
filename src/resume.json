@@ -3,7 +3,6 @@
     "firstName": "Sabine",
     "lastName": "Robart",
     "label": "Développeuse web",
-    "phone": "",
     "social": {
       "linkedin": "https://www.linkedin.com/in/sabinerobart/",
       "email": "sabine.robart@protonmail.com",
@@ -13,7 +12,7 @@
       "phone": "+33606325507"
     },
     "summary": "J'ai décidé de me reconvertir afin de m'orienter vers un métier-passion : formée au développement web front-end && back-end à la Wild Code School, je suis disponible à partir de août || septembre 2019 pour un stage de 4 à 6 mois.",
-    "specialties": ["React", "NodeJS"],
+    "specialties": ["JavaScript", "React", "NodeJS"],
     "location": {
       "postalCode": "59000",
       "city": "Lille, France"
@@ -22,45 +21,43 @@
   },
   "work": [
     {
+      "company": "Wild Code School",
+      "current": true,
+      "position": "Développeuse web",
+      "startDate": "Février 2019",
+      "endDate": "Aujourd'hui",
+      "summary": "Dans le cadre de ma formation à la Wild Code School :",
+      "highlights": [
+        "Divers projets utilisant React, JavaScript, ES6, Sass, NodeJS.",
+        "Connaissance des bonnes pratiques du développement web : code propre, facilement maintenable.",
+        "Travail d'équipe avec utilisation de Git | Git Workflow.",
+        "Méthode agile | SCRUM.",
+        "Projets visibles dans la section 'Portfolio'."
+      ]
+    },
+    {
       "company": "Freelance",
       "current": false,
-      "position": "Frontend Engineer",
-      "startDate": "August 2017",
-      "endDate": "January 2019",
-      "summary": "Various projects utilizing ES6, Gatsby, Sass and WordPress.",
-      "highlights": [
-        "Improved client's development workflow by incorpating modern tools like: Webpack, Gulp, ESLint, Prettier, Jest, Ansible and others.",
-        "Ensure that the developing codebase conforms to best practices with regard to coding standards.",
-        "A/B tested multiple CTA components and improved conversions by 23%"
-      ]
+      "position": "Garde d'enfants à domicile",
+      "website": "",
+      "startDate": "2006",
+      "endDate": "2018",
+      "summary": "Participation à l'éducation de jeunes enfants à travers les soins quotidiens et des activités éducatives :",
+      "highlights": [" Créativité", "Multi-tasking", "Résolution de problèmes."]
     },
     {
-      "company": "Recovery Brands",
+      "company": "Animatrice en CLSH",
       "current": false,
-      "position": "Frontend Engineer",
-      "website": "https://www.recoverybrands.com",
-      "startDate": "May 2013",
-      "endDate": "June 2017",
-      "summary": "Add features and fix bugs for Recovery Brands network of websites.",
+      "position": "Centres de loisirs de Lille - Hellemmes - Wasquehal - Dannes",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "2008",
+      "summary": "Prise en charge d’activités de groupes :",
       "highlights": [
-        "Built \"Recovery Brands\" Sass framework, its automated build process, and documentation.",
-        "Implemented structured data markup across multiple websites of \"Recovery Brands\" network, which led to a 5% increase in CTR.",
-        "Consistently took part in adding new features for a network of 20+ WordPress websites (such as Rehabs.com) with a total amount of 5m+ visitors per month.",
-        "Ran workshops and talks on CSS & Sass architecture for the team of 5 frontend developers."
-      ]
-    },
-    {
-      "company": "Udacity",
-      "current": false,
-      "position": "Frontend Developer [Remote]",
-      "website": "https://www.udacity.com",
-      "startDate": "April 2016",
-      "endDate": "August 2016",
-      "summary": "Sass architecture and development of Udacity Blitz React app.",
-      "highlights": [
-        "Frontend Sass development with the focus on reusability and cross-browser compatibility.",
-        "Implemented the Udacity Blitz UI kit using Sass.",
-        "Implemented UI atoms."
+        "Travail d’équipe",
+        "Autonomie",
+        "Responsabilité",
+        "Organisation"
       ]
     }
   ],
@@ -71,7 +68,8 @@
       "institution": "Wild Code School",
       "studyType": "Formation effectuée à la",
       "city": "Lille",
-      "endDate": "2019"
+      "endDate": "2019",
+      "options": "Pédagogie hybride : en présentiel + plateforme en ligne pour un apprentissage en autonomie - réalisation de 3 projets (dont 1 projet réel) - entrainement sous forme de hackathons, dojos"
     },
     {
       "formation": "Création d'Entreprise",
@@ -124,10 +122,11 @@
       "Git - Github",
       "NodeJS",
       "Sass",
-      "Linux",
       "API",
       "Reactstrap - Bootstrap",
-      "HTML - CSS"
+      "HTML - CSS",
+      "Linux",
+      "Outils de graphisme (Photoshop - Figma)"
     ],
     "softSkills": [
       "Fiable",
@@ -135,10 +134,13 @@
       "Capable de travailler en équipe",
       "Proactive",
       "Attentive aux details - Patiente",
-      "Créative"
+      "Créative",
+      "Inspirée par le Web Design",
+      "Intéressée par le UX-UI"
     ]
   },
   "portfolio": {
+    "_comment": "Pictures for the projects can be found in an array in the portfolio.jsx component",
     "projects": [
       {
         "projectName": "Moov'in Lille",
@@ -149,6 +151,11 @@
         "projectName": "NOR'Digital",
         "projectUrl": "https://github.com/Sabinerobart/wcs-lille-0219-projet1-groupe3_v2",
         "descr": "Réalisation d’un site statique permettant de présenter l’écosystème numérique lillois. Ce projet m'a permis de consolider mes connaissances dans les technologies de base (HTML/CSS/Bootstrap – Javascript Vanilla), et de m'exercer à la réalisation d'un projet de groupe : travail d’équipe (grâce à l'utilisation de Git/Github/Git Workflow) – mise en place de la méthode agile (daily standup/rétrospectives) – présentation du projet devant une audience"
+      },
+      {
+        "projectName": "Site Personnel",
+        "projectUrl": "https://github.com/Sabinerobart/resume",
+        "descr": "Ce site fait office à la fois de CV en ligne et de mise en pratique des technologies que j'ai apprises. Construit avec React, les informations proviennent d'un fichier json, ce qui permettra une rapide mise à jour au fur et à mesure de l'évolution de ma carrière. De ce fait, il fait aussi office de template, disponible sur Github."
       }
     ],
     "pens": [
