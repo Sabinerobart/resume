@@ -4,10 +4,7 @@ class Job extends Component {
   render() {
     const { details, colors } = this.props;
     return (
-      <div
-        className="job__container"
-        // style={{ borderLeft: `10px solid ${colors}` }}
-      >
+      <div className="job__container">
         <div className="job">
           <div className="job__header">
             <h3>
@@ -20,8 +17,8 @@ class Job extends Component {
           <div className="separation-2" style={{ background: colors }} />
           <div className="job__date">
             {details.current
-              ? `Current Job as of ${details.startDate}`
-              : `${details.startDate} to ${details.endDate}`}
+              ? `Depuis ${details.startDate}`
+              : `${details.startDate} - ${details.endDate}`}
           </div>
           <br />
 
