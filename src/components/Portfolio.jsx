@@ -74,6 +74,7 @@ class Portfolio extends React.Component {
                     href="https://wildcodeschool.fr/"
                     className="hvr-underline-from-left"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Wild Code School
                   </a>
@@ -128,6 +129,7 @@ class Portfolio extends React.Component {
                     href="https://100dayscss.com/"
                     className="hvr-underline-from-left"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     100 days css.
                   </a>
