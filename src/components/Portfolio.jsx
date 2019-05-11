@@ -32,6 +32,7 @@ class Portfolio extends React.Component {
   render() {
     const pens = this.props.portfolio.pens;
     const projects = this.props.portfolio.projects;
+    const idees = this.props.idees;
 
     return (
       <Col lg="7" className="portfolio__container">
@@ -66,10 +67,28 @@ class Portfolio extends React.Component {
           <TabContent activeTab={this.state.activeTab}>
             <TabPane tabId="1">
               <Row>
+                <div className="col-md-10 mx-auto px-0 py-4 portfolio-descr">
+                  Les 2 premiers projets ci-dessous on été réalisés dans le
+                  cadre de ma formation développeur web suivie à la
+                  <a
+                    href="https://wildcodeschool.fr/"
+                    className="hvr-underline-from-left"
+                    target="_blank"
+                  >
+                    Wild Code School
+                  </a>
+                  de Lille. Ces projets ont été réalisés en équipe, sur une
+                  période de 4 semaines maximum.
+                </div>
+                <div className="col-md-10 mx-auto px-0 py-4 portfolio-descr">
+                  Le 3ème fait référence à ce même site personnel. C'est un
+                  projet personnel, réalisé en quelques jours.
+                </div>
                 {projects.map((project, i) => {
                   const img = [
                     require("../pictures/Project2.jpg"),
-                    require("../pictures/Project1.jpg")
+                    require("../pictures/Project1.jpg"),
+                    require("../pictures/this-resume.jpg")
                   ];
                   const projectNumber = `project ${i}`;
                   return (
@@ -103,23 +122,49 @@ class Portfolio extends React.Component {
             </TabPane>
             <TabPane tabId="2">
               <Row>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Tenetur voluptate voluptates adipisci aspernatur sequi eveniet
-                  minima quasi quisquam incidunt sapiente, corporis reiciendis
-                  praesentium. Assumenda fuga provident ab similique nihil
-                  asperiores?
-                </p>
+                <Col md="10" className="mx-auto px-0 py-4 portfolio-descr">
+                  En 2018, j'ai participé au challenge quotidien
+                  <a
+                    href="https://100dayscss.com/"
+                    className="hvr-underline-from-left"
+                    target="_blank"
+                  >
+                    100 days css.
+                  </a>
+                  Chaque jour pendant 100 jours, je me suis exercée à
+                  différentes techniques d'intégration. J'ai beaucoup pratiqué
+                  les technologies telles que :
+                  <ul>
+                    <li>Html 5</li>
+                    <li>Css/Sass</li>
+                    <li>Bootstrap</li>
+                    <li>Animations (CSS 3)</li>
+                  </ul>
+                  Réalisé avant de commencer ma formation de développeur, ce
+                  challenge m'a permis d'acquérir de solides bases, et de
+                  confirmer mon goût pour la programmation informatique. Voici
+                  quelques exemples des mini-projets que j'ai réalisés. Pour
+                  découvrir les autres projets et constater ma progression dans
+                  ces langages, rendez-vous sur mon compte
+                  <a
+                    href={idees.codepen}
+                    className="hvr-underline-from-left"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Codepen.
+                  </a>
+                </Col>
                 {pens.map((pen, i) => {
                   return (
                     <React.Fragment>
                       <p
-                        className="codepen col-9"
+                        className="codepen col-md-10"
                         data-height="496"
                         data-theme-id="dark"
                         data-default-tab="css,result"
                         data-user="_Sabine"
-                        data-slug-hash={pen.dataSlugHash[i]}
+                        data-slug-hash={pen.dataSlugHash}
                         data-preview="true"
                         style={{
                           height: "365px",
