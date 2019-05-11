@@ -13,10 +13,10 @@
 }
 
 .portfolio-picture {
-  border-radius: 10px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
   width: 100%;
   filter: saturate(0);
+  border: $border;
 }
 
 .overlay {
@@ -27,11 +27,11 @@
   height: 100%;
   z-index: 2000;
   color: $wh;
-  border-radius: 10px;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
   padding: 4vw;
+  border: $border;
   overflow-y: auto;
   h3 {
     font-family: "Bevan", serif;
@@ -64,6 +64,7 @@
     width: 15%;
     border-radius: 0 50% 50% 0;
     top: 50%;
+    border: none;
     p,
     img {
       display: none;
@@ -111,12 +112,15 @@
   }
 }
 
-/*
-* MEDIA QUERIES
-*/
+.portfolio-descr,
+.portfolio-descr a {
+  font-size: calc(0.8rem + 0.5vw);
+  li {
+    list-style: circle;
+    font-size: calc(0.8rem + 0.5vw);
+  }
+}
 
-// @media (max-width: 600px) {
-//   .portfolio-picture {
-//     height: 40vh;
-//   }
-// }
+.portfolio__container .hvr-underline-from-left {
+  color: inherit;
+}
