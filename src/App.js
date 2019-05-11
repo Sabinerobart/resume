@@ -41,7 +41,12 @@ class App extends Component {
             <Route
               exact
               path={"/Portfolio"}
-              render={() => <Portfolio portfolio={resume.portfolio} />}
+              render={() => (
+                <Portfolio
+                  portfolio={resume.portfolio}
+                  idees={resume.basics.social}
+                />
+              )}
             />
             <Route
               exact
