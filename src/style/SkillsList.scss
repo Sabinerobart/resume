@@ -1,5 +1,10 @@
 @import "../index";
 
+.skills-list__container {
+  height: 100vh;
+  overflow: auto;
+}
+
 .skills-list__modal {
   padding: 3vh * 2 0;
   h3,
