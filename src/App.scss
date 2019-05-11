@@ -150,6 +150,41 @@ h1 span {
   width: 95%;
 }
 
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: bottom;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-left,
+.hvr-underline-from-left:hover,
+.hvr-underline-from-left:focus {
+  color: $wh;
+  padding: 0 0.2rem;
+  margin: 0 0.2rem;
+  text-decoration: none;
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 80%;
+  bottom: 15%;
+  background: fade-out($pink, 0.3);
+  height: 10px;
+  transition: right 0.4s ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+
 /*
 * MEDIA QUERIES
 */
