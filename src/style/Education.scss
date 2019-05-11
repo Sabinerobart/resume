@@ -1,18 +1,5 @@
 @import "../index";
 
-.education__container {
-  animation: 2s reveal;
-}
-
-@keyframes reveal {
-  from {
-    height: 0;
-  }
-  to {
-    height: 100vh;
-  }
-}
-
 .education__modal {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,7 @@
 $main-color: #091d72;
 $sec-color: #866de7;
 $third-color: #6d92e7;
+$pink: #c26de7;
 $wh: #f7f7f7;
 $bl: #201c29;
 $coco: #c0c0c0;
@@ -19,11 +20,11 @@ $faded-colors: rgba($main-color, 0.8), rgba($sec-color, 0.8),
 body {
   margin: 0;
   padding: 0;
-  scrollbar-color: /*#4c35a8*/ transparent rgba(0, 0, 0, 0.1);
+  scrollbar-color: /*#4c35a8*/ transparent rgba(0, 0, 0, 0);
   scrollbar-width: thin;
 }
 
 ::selection {
-  background: $sec-color;
+  background: #432fd6;
   color: $wh;
 }

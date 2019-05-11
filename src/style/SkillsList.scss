@@ -11,9 +11,10 @@
     font-family: "quicksand", sans-serif;
     margin-bottom: 5vh;
     margin-left: 3vw;
-    padding: 1rem;
+    padding: 1rem 0;
     color: rgba($bl, 0.5);
-    border-bottom: 5px solid $bl;
+    border-bottom: 5px solid rgba($bl, 0.8);
+    height: 6rem;
   }
   p {
     font-family: "Quicksand", sans-serif;
@@ -65,10 +66,4 @@
   text-align: right;
   font-size: calc(1.5rem + 2vw);
   line-height: 1.4;
-}
-
-@media (max-width: 990px) {
-  .skills-list__container {
-    background: none;
-  }
 }

@@ -30,10 +30,6 @@
   background-repeat: no-repeat;
 }
 
-// * {
-//   border: 1px solid red;
-// }
-
 /*
 * FONTS
 */
@@ -80,15 +76,17 @@ h1 span {
 /*
  * NAV
  */
-
 .nav__container {
   position: fixed;
   z-index: 9000;
   width: 100vw;
   top: 0;
   left: 0;
-  padding: 3vh 5.4vw calc(1vh + 2px) 3.85vw;
+  padding: 2vh 2vw;
   overflow-x: auto;
+  background: rgba($bl, 0.85);
+  text-align: right;
+  box-shadow: 0 0.2rem 1rem rgba($bl, 0.4);
 }
 
 .nav__btn {
@@ -97,11 +95,12 @@ h1 span {
   font-size: calc(0.8rem + 0.2vw);
   font-weight: 600;
   color: rgba($wh, 0.5);
-  border: 2px solid rgba($wh, 0.5);
+  border: 2px solid transparent;
   transition: 0.8s;
   &:hover {
-    color: $wh;
+    color: rgba($wh, 0.6);
     text-decoration: none;
+    border: 2px solid rgba($wh, 0.6);
   }
 }
 
@@ -131,13 +130,16 @@ h1 span {
   }
 }
 
+.app .hero,
 .card__container,
-.education__container,
 .skills-list__container,
 .portfolio__container,
+.overlay,
 .contact__container {
   height: 100vh;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .job__container,
@@ -151,15 +153,6 @@ h1 span {
 /*
 * MEDIA QUERIES
 */
-@media (max-width: 370px) {
-  .nav__container {
-    display: none;
-  }
-
-  .hero__arrow {
-    display: none;
-  }
-}
 
 @media (max-width: 990px) {
   .app {
@@ -167,16 +160,16 @@ h1 span {
   }
 
   .nav__container {
-    background: rgba($bl, 0.9);
-    padding: 3vh 0;
+    padding: 2vh 0;
     .nav__btn {
-      margin: 0.35rem;
+      margin: 0.5rem;
     }
   }
 
   .job__container,
   .skills-list__modal,
   .education__modal,
+  .education__container,
   .portfolio__content,
   .contact__modal {
     min-width: 100%;

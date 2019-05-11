@@ -1,12 +1,13 @@
 @import "../index";
 
-.codepen {
-  border-color: $main-color;
-}
+// .codepen {
+//   border-color: $main-color;
+// }
 
 .nav-tabs {
   margin: 10vh auto;
 }
+
 .tab-pane .row {
   margin: 5vh auto;
 }
@@ -27,23 +28,24 @@
   z-index: 2000;
   color: $wh;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+  padding: 4vw;
+  overflow-y: auto;
   h3 {
     font-family: "Bevan", serif;
-    margin: 2vh 0;
+    margin: 1vh 0;
+    font-size: calc(0.9rem + 1vw);
   }
   p {
-    font-size: calc(1rem + 1vw);
-    padding: 1rem;
+    font-size: calc(0.5rem + 0.5vw);
+    padding: 0 1rem;
   }
   img {
     position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: 1vh;
+    right: 1vh;
   }
 }
 
@@ -98,6 +100,7 @@
 .tab-pane.active {
   animation: fadeIn 0.8s;
 }
+
 @keyframes fadeIn {
   from {
     transform: translate(-100vh);
@@ -107,3 +110,13 @@
     opacity: 1;
   }
 }
+
+/*
+* MEDIA QUERIES
+*/
+
+// @media (max-width: 600px) {
+//   .portfolio-picture {
+//     height: 40vh;
+//   }
+// }
