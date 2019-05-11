@@ -9,7 +9,8 @@
       "email": "sabine.robart@protonmail.com",
       "github": "https://github.com/Sabinerobart",
       "twitter": "https://twitter.com/Sabinerobart",
-      "codepen": "https://codepen.io/_Sabine/#"
+      "codepen": "https://codepen.io/_Sabine/#",
+      "phone": "+33606325507"
     },
     "summary": "J'ai décidé de me reconvertir afin de m'orienter vers un métier-passion : formée au développement web front-end && back-end à la Wild Code School, je suis disponible à partir de août || septembre 2019 pour un stage de 4 à 6 mois.",
     "specialties": ["React", "NodeJS"],
@@ -61,19 +62,6 @@
         "Implemented the Udacity Blitz UI kit using Sass.",
         "Implemented UI atoms."
       ]
-    },
-    {
-      "company": "Freelance",
-      "current": false,
-      "position": "Frontend Engineer",
-      "startDate": "August 2017",
-      "endDate": "January 2019",
-      "summary": "Various projects utilizing ES6, Gatsby, Sass and WordPress.",
-      "highlights": [
-        "Improved client's development workflow by incorpating modern tools like: Webpack, Gulp, ESLint, Prettier, Jest, Ansible and others.",
-        "Ensure that the developing codebase conforms to best practices with regard to coding standards.",
-        "A/B tested multiple CTA components and improved conversions by 23%"
-      ]
     }
   ],
   "education": [
@@ -91,7 +79,8 @@
       "institution": "BGE Hauts-de-France",
       "studyType": "Formation effectuée à la",
       "city": "Lille",
-      "endDate": "2018"
+      "endDate": "2018",
+      "options": "Etude de marché - stratégie commerciale web marketing & communication – gestion financière - business plan"
     },
     {
       "formation": "Google Ateliers Numériques",
@@ -153,31 +142,30 @@
     "projects": [
       {
         "projectName": "Moov'in Lille",
-        "projectUrl": "https://www.presse-citron.net/",
-        "descr": "stuff"
+        "projectUrl": "https://github.com/Sabinerobart/lille-0219-js-projet2-vlille",
+        "descr": "Réalisation d’une application web donnant la disponibilité des vélos en location sur la métropole lilloise - Données : Utilisation d’API existante (v’lille) et création d’API pour la gestion des utilisateurs et des favoris - Cartographie : Géolocalisation + Utilisation de librairies et plugins dédiés (Leaflet – React-leaflet – Geocoder) - Gestion de projet en équipe selon une méthode agile : rôles de Product Owner | Scrum Master"
       },
       {
         "projectName": "NOR'Digital",
-        "projectUrl": "https://www.presse-citron.net/",
-        "desc": "stuff also"
+        "projectUrl": "https://github.com/Sabinerobart/wcs-lille-0219-projet1-groupe3_v2",
+        "descr": "Réalisation d’un site statique permettant de présenter l’écosystème numérique lillois. Ce projet m'a permis de consolider mes connaissances dans les technologies de base (HTML/CSS/Bootstrap – Javascript Vanilla), et de m'exercer à la réalisation d'un projet de groupe : travail d’équipe (grâce à l'utilisation de Git/Github/Git Workflow) – mise en place de la méthode agile (daily standup/rétrospectives) – présentation du projet devant une audience"
       }
     ],
     "pens": [
       {
         "dataSlugHash": "xmoRqp",
         "dataPenTitle": "Folding Profile Gallery",
-        "penHref": "https://codepen.io/_Sabine/full/xmoRqp/",
-        "penImg": "https://screenshot.codepen.io/2280907.xmoRqp.4ab1c6b7-ef70-4992-a175-95058a182d7f.png"
-      },
-      {
-        "dataSlugHash": "xmoRqp",
-        "dataPenTitle": "Pouet",
         "penHref": "https://codepen.io/_Sabine/full/xmoRqp/"
       },
       {
-        "dataSlugHash": "xmoRqp",
-        "dataPenTitle": "Pouet Pouet",
-        "penHref": "https://codepen.io/_Sabine/full/xmoRqp/"
+        "dataSlugHash": "GPwyro",
+        "dataPenTitle": "Sliding Notifications Card",
+        "penHref": "https://codepen.io/_Sabine/full/GPwyro"
+      },
+      {
+        "dataSlugHash": "yZYrNN",
+        "dataPenTitle": "Email Icon Animation",
+        "penHref": "https://codepen.io/_Sabine/full/yZYrNN"
       }
     ]
   }
