@@ -144,7 +144,7 @@
     "projects": [
       {
         "projectName": "Moov'in Lille",
-        "projectUrl": "https://github.com/Sabinerobart/lille-0219-js-projet2-vlille",
+        "projectUrl": "https://github.com/Sabinerobart/moov-in-lille",
         "descr": "Réalisation d’une application web donnant la disponibilité des vélos en location sur la métropole lilloise - Données : Utilisation d’API existante (v’lille) et création d’API pour la gestion des utilisateurs et des favoris - Cartographie : Géolocalisation + Utilisation de librairies et plugins dédiés (Leaflet – React-leaflet – Geocoder) - Gestion de projet en équipe selon une méthode agile : rôles de Product Owner | Scrum Master"
       },
       {
