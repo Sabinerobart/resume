@@ -1,44 +1,45 @@
-import React from 'react';
-import CSSTransitionGroup from 'react-addons-css-transition-group';
+import React from "react";
+import "../style/Contact.scss";
+import "../App.scss";
+import { Col } from "reactstrap";
 
-const Contact = (props) => {
-  const { email, website } = props.info;
-  const layout = {display: 'flex', flexDirection: 'column', alignItems: 'center'}
-  return (
-      <div className="contact__container" style={{display: 'flex'}}>
+class Contact extends React.Component {
+  render() {
+    const info = this.props.info;
+    return (
+      <Col lg="7" className="contact__container">
+        <h1 className="title">
+          Contact <span>+</span>
+        </h1>
+        <div className="separation" />
         <div className="contact__modal">
-          <CSSTransitionGroup 
-            style={layout}
-            component="div"
-            transitionName="slide"
-            transitionEnterTimeout={5000}
-            transitionLeaveTimeout={3000}
-          >
-            <h1 className="contact__header" >Contact</h1>
-
-            <h3>
-              <a
-                href="mailto:skok@vova.io?subject=Resume%20Inquiry"
-                style={{textDecoration: 'none'}}
-              >
-                {email}
-              </a>
-            </h3>
-
-            <h3>
-              <a
-                href="https://linkedin.com/in/iamskok"
-                style={{ textDecoration: 'none'}}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {website}
-              </a>
-            </h3>
-          </CSSTransitionGroup>
+          <Col xs="7" className="contact__default-box" />
+          <Col xs="12" md="5" className="contact__box">
+            <a href={`mailto:${info.email}?subject=About your Resume`}>
+              <i className="far fa-envelope" />
+              <p>{info.email}</p>
+            </a>
+            <a href="/Contact">
+              <i className="fas fa-phone" />
+              <p>{info.phone}</p>
+            </a>
+            <a href={info.linkedin}>
+              <i className="fab fa-linkedin-in" />
+              <p>{info.linkedin}</p>
+            </a>
+            <a href={info.github}>
+              <i className="fab fa-github" />
+              <p>{info.github}</p>
+            </a>
+            <a href={info.twitter}>
+              <i className="fab fa-twitter" />
+              <p>{info.twitter}</p>
+            </a>
+          </Col>
         </div>
-      </div>
-    )
+      </Col>
+    );
+  }
 }
-    
+
 export default Contact;
