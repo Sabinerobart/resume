@@ -82,8 +82,8 @@ class Portfolio extends React.Component {
                   période de 4 semaines maximum.
                 </div>
                 <div className="col-md-10 mx-auto px-0 py-4 portfolio-descr">
-                  Le 3ème fait référence à ce même site personnel. C'est un
-                  projet personnel, réalisé en quelques jours.
+                  Le 3ème projet fait référence à ce même site personnel. C'est
+                  un projet personnel, réalisé en quelques jours.
                 </div>
                 {projects.map((project, i) => {
                   const img = [
@@ -145,9 +145,10 @@ class Portfolio extends React.Component {
                   Réalisé avant de commencer ma formation de développeur, ce
                   challenge m'a permis d'acquérir de solides bases, et de
                   confirmer mon goût pour la programmation informatique. Voici
-                  quelques exemples des mini-projets que j'ai réalisés. Pour
-                  découvrir les autres projets et constater ma progression dans
-                  ces langages, rendez-vous sur mon compte
+                  quelques exemples des mini-projets que j'ai réalisés.
+                  <br />
+                  Pour découvrir les autres projets et constater ma progression
+                  dans ces langages, rendez-vous sur
                   <a
                     href={idees.codepen}
                     className="hvr-underline-from-left"
