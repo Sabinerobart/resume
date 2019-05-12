@@ -1,5 +1,10 @@
 @import "../index";
 
+.education__container {
+  height: 100vh;
+  overflow: auto;
+}
+
 .education__modal {
   display: flex;
   flex-direction: column;
@@ -8,7 +13,7 @@
   overflow-y: hidden;
   scrollbar-color: $sec-color rgba(0, 0, 0, 0.1);
   scrollbar-width: thin;
-  padding: 15vh 0;
+  padding: 5vh 0;
   background: url("../pictures/watercolor4.png");
   background-size: cover;
   h4 {
