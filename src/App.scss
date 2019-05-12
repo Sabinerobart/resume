@@ -37,8 +37,7 @@
 .app .hero,
 .card__container,
 .portfolio__container,
-.overlay,
-.contact__container {
+.overlay {
   height: 100vh;
   overflow: auto;
   display: flex;
@@ -63,6 +62,7 @@
 }
 
 h1 {
+  font-family: "Bevan", sans-serif;
   animation: 2s appear;
 }
 
@@ -75,17 +75,13 @@ h1 {
   }
 }
 
-h1 {
-  font-family: "Bevan", sans-serif;
-}
-
 .hero h1,
 .title {
   font-size: calc(2rem + 1vw);
 }
 
 .title {
-  margin-top: 12vh;
+  margin-top: 20vh;
 }
 
 h1 span {
@@ -109,9 +105,8 @@ h1 span {
   left: 0;
   padding: 2vh 2vw;
   overflow-x: auto;
-  background: rgba($bl, 0.85);
+  background: rgba($bl, 0.9);
   text-align: right;
-  box-shadow: 0 0.2rem 1rem rgba($bl, 0.4);
 }
 
 .nav__btn {
