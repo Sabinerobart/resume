@@ -30,12 +30,12 @@ class App extends Component {
             />
             <Route
               exact
-              path={"/Education"}
+              path={"/Formation"}
               render={() => <Education education={resume.education} />}
             />
             <Route
               exact
-              path={"/Skills"}
+              path={"/Compétences"}
               render={() => <SkillsList resumeObj={resume} />}
             />
             <Route
@@ -68,7 +68,7 @@ class App extends Component {
               Expérience
             </NavLink>
             <NavLink
-              to={"/Education"}
+              to={"/Formation"}
               className="nav__btn"
               activeStyle={{
                 color: activeColor,
@@ -78,7 +78,7 @@ class App extends Component {
               Formation
             </NavLink>
             <NavLink
-              to={"/Skills"}
+              to={"/Compétences"}
               className="nav__btn"
               activeStyle={{
                 color: activeColor,
