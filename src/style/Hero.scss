@@ -7,6 +7,7 @@
   margin: 0 auto;
   color: $wh;
   background: url("../pictures/full-bloom.png"), rgba($main-color, 0.6);
+  // background: $bl;
 }
 
 .business-card {
@@ -129,10 +130,13 @@ h2 {
 }
 
 .hero__summary {
-  margin: calc(1rem + 3vw) 0;
+  margin: calc(1rem + 1vw) 0;
   p,
   a {
     font-size: calc(0.8rem + 0.4vw);
+  }
+  h4 {
+    line-height: 0;
   }
   h4 span {
     font-size: calc(0.6rem + 0.4vw);
@@ -214,7 +218,7 @@ h2 {
   display: none;
   position: absolute;
   left: 10vw;
-  bottom: 10vh;
+  bottom: 0;
   font-size: 40px;
   animation: hero-arrow 1.5s infinite both;
 }
