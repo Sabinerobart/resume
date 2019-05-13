@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Sabinerobart/resume/precache-manifest.75dd2442bb37cc83a09b8086111eebc0.js"
+  "/resume/precache-manifest.32ef9b040ca47d63908be0868845d0ee.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Sabinerobart/resume/index.html", {
+workbox.routing.registerNavigationRoute("/resume/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
