@@ -5,7 +5,8 @@
   "license": "",
   "homepage": "https://sabinerobart.github.io/resume/",
   "scripts": {
-    "predeploy": "npm run build&&gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
