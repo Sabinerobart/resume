@@ -3,7 +3,7 @@
   "author": "",
   "version": "0.2.0",
   "license": "",
-  "homepage": "https://sabinerobart.github.io/resume/",
+  "homepage": "http://Sabinerobart.github.io/resume",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
