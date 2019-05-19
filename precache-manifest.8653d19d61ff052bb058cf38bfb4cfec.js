@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "974bca2bf26dc2fae8d67248d9df5e34",
-    "url": "/resume/static/media/Nunito-Bold.974bca2b.ttf"
+    "revision": "07d76c0fadc6f46b3bdf26bec2d029d8",
+    "url": "/resume/static/media/full-bloom.07d76c0f.png"
   },
   {
-    "revision": "70de406d56ddcfe94893",
-    "url": "/resume/static/css/main.50b2f39e.chunk.css"
+    "revision": "be487158cb58677c8758",
+    "url": "/resume/static/css/main.ff9e0535.chunk.css"
   },
   {
     "revision": "699f89d957187d0ac949",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/resume/static/media/tree.c22e03bd.png"
   },
   {
-    "revision": "5cea51341e26ab0269b0",
-    "url": "/resume/static/js/2.e920539c.chunk.js"
+    "revision": "8c7d412ec7e3000547c4",
+    "url": "/resume/static/js/2.3cd1f85b.chunk.js"
   },
   {
     "revision": "cf237ca8a2f4c24bb28d4452d08a0888",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Quicksand-Regular.678b12a6.ttf"
   },
   {
-    "revision": "70de406d56ddcfe94893",
-    "url": "/resume/static/js/main.4d95c2e5.chunk.js"
+    "revision": "974bca2bf26dc2fae8d67248d9df5e34",
+    "url": "/resume/static/media/Nunito-Bold.974bca2b.ttf"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/resume/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "07d76c0fadc6f46b3bdf26bec2d029d8",
-    "url": "/resume/static/media/full-bloom.07d76c0f.png"
+    "revision": "be487158cb58677c8758",
+    "url": "/resume/static/js/main.736eff8b.chunk.js"
   },
   {
     "revision": "afafd343aa2aad00f62fad300fbf0011",
@@ -64,15 +64,27 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Project1.0e7851f5.jpg"
   },
   {
-    "revision": "ec296ae7ba27b693467a7a8dc0a8f8ec",
-    "url": "/resume/static/media/this-resume.ec296ae7.jpg"
+    "revision": "dbf72b686bb954fc5f56dd23653bef8a",
+    "url": "/resume/static/media/this-resume.dbf72b68.jpg"
   },
   {
-    "revision": "5cea51341e26ab0269b0",
+    "revision": "2182d7b6588c1b8ce0f9f83693e65878",
+    "url": "/resume/static/media/folding-profile-gallery.2182d7b6.jpg"
+  },
+  {
+    "revision": "94f6ad96fb1302385ea812bba06ca36d",
+    "url": "/resume/static/media/sliding-notifications-card.94f6ad96.jpg"
+  },
+  {
+    "revision": "17882d6dffa8ebfc856255b8ce2caccb",
+    "url": "/resume/static/media/email-icon-animation.17882d6d.jpg"
+  },
+  {
+    "revision": "8c7d412ec7e3000547c4",
     "url": "/resume/static/css/2.b6bc5772.chunk.css"
   },
   {
-    "revision": "8bfd8d0e6eaf75f25174e8cc53a68fda",
+    "revision": "b2e5225542c768b738d158d336133eb1",
     "url": "/resume/index.html"
   }
 ];
