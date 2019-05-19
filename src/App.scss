@@ -24,7 +24,7 @@
  */
 .app {
   display: flex;
-  background: linear-gradient(rgba($wh, 0.9), rgba($wh, 0.5)),
+  background: linear-gradient(rgba($wh, 0.9), rgba($wh, 0.8)),
     url(./pictures/mountain.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ h1 span {
 .hvr-underline-from-left,
 .hvr-underline-from-left:hover,
 .hvr-underline-from-left:focus {
-  color: $wh;
+  color: $bl;
   padding: 0 0.2rem;
   margin: 0 0.2rem;
   text-decoration: none;
