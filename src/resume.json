@@ -12,7 +12,7 @@
       "phone": "+33606325507"
     },
     "summary": "J'ai décidé de me reconvertir afin de m'orienter vers un métier-passion : formée au développement web front-end && back-end à la Wild Code School, je suis disponible à partir de août || septembre 2019 pour un stage de 4 à 6 mois.",
-    "specialties": ["JavaScript", "React", "NodeJS"],
+    "specialties": ["JavaScript", "React", "NodeJS", "Express", "mySQL"],
     "location": {
       "postalCode": "59000",
       "city": "Lille, France"
