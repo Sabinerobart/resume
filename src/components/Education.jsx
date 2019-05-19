@@ -22,7 +22,7 @@ class Education extends React.Component {
           Formation <span>+</span>
         </h1>
         <div className="separation" />
-        <CardGroup className="education__modal flex-nowrap">
+        <CardGroup className="education__modal">
           {educ.map((degree, i) => {
             return (
               <Col
