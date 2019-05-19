@@ -159,41 +159,38 @@ class Portfolio extends React.Component {
                   </a>
                 </Col>
                 {pens.map((pen, i) => {
+                  const img = [
+                    require("../pictures/folding-profile-gallery.jpg"),
+                    require("../pictures//sliding-notifications-card.jpg"),
+                    require("../pictures//email-icon-animation.jpg")
+                  ];
+                  const penNumber = `pen ${i}`;
                   return (
-                    <React.Fragment>
-                      <p
-                        className="codepen col-md-10"
-                        data-height="496"
-                        data-theme-id="dark"
-                        data-default-tab="css,result"
-                        data-user="_Sabine"
-                        data-slug-hash={pen.dataSlugHash}
-                        data-preview="true"
-                        style={{
-                          height: "365px",
-                          boxSizing: "border-box",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          border: "2px solid #fafafa",
-                          margin: "1rem auto",
-                          padding: "1rem"
-                        }}
-                        data-pen-title={pen.dataPenTitle}
-                      >
-                        <span>
-                          See the Pen &nbsp;
-                          <a href={pen.penHref}>{pen.dataPenTitle}</a>&nbsp; by
-                          Sabine Robart (
-                          <a href="https://codepen.io/_Sabine">@_Sabine</a>) on
-                          <a href="https://codepen.io"> CodePen </a>.
-                        </span>
-                      </p>
-                      <script
-                        async
-                        src="https://static.codepen.io/assets/embed/ei.js"
-                      />
-                    </React.Fragment>
+                    <a
+                      key={i}
+                      href={pen.penHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="col-12 col-md-10 p-0 my-4 mx-auto"
+                    >
+                      <div>
+                        <img
+                          className="portfolio-picture"
+                          src={img[i]}
+                          alt={penNumber}
+                        />
+                        <div>
+                          <img
+                            className="plus-sign"
+                            src={require("../pictures/icons/plus.png")}
+                            alt="plus sign"
+                            height="40px"
+                          />
+                          <h3>{pen.projectName}</h3>
+                          <p>{pen.descr}</p>
+                        </div>
+                      </div>
+                    </a>
                   );
                 })}
               </Row>
