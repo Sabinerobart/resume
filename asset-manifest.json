@@ -1,17 +1,17 @@
 {
-  "main.css": "/resume/static/css/main.ff9e0535.chunk.css",
-  "main.js": "/resume/static/js/main.736eff8b.chunk.js",
-  "main.js.map": "/resume/static/js/main.736eff8b.chunk.js.map",
+  "main.css": "/resume/static/css/main.c6399e3a.chunk.css",
+  "main.js": "/resume/static/js/main.b7d029c7.chunk.js",
+  "main.js.map": "/resume/static/js/main.b7d029c7.chunk.js.map",
   "runtime~main.js": "/resume/static/js/runtime~main.30522d0f.js",
   "runtime~main.js.map": "/resume/static/js/runtime~main.30522d0f.js.map",
   "static/css/2.b6bc5772.chunk.css": "/resume/static/css/2.b6bc5772.chunk.css",
   "static/js/2.3cd1f85b.chunk.js": "/resume/static/js/2.3cd1f85b.chunk.js",
   "static/js/2.3cd1f85b.chunk.js.map": "/resume/static/js/2.3cd1f85b.chunk.js.map",
   "index.html": "/resume/index.html",
-  "precache-manifest.8653d19d61ff052bb058cf38bfb4cfec.js": "/resume/precache-manifest.8653d19d61ff052bb058cf38bfb4cfec.js",
+  "precache-manifest.ce4757e129e931b6d33b2c4ad4b64aca.js": "/resume/precache-manifest.ce4757e129e931b6d33b2c4ad4b64aca.js",
   "service-worker.js": "/resume/service-worker.js",
   "static/css/2.b6bc5772.chunk.css.map": "/resume/static/css/2.b6bc5772.chunk.css.map",
-  "static/css/main.ff9e0535.chunk.css.map": "/resume/static/css/main.ff9e0535.chunk.css.map",
+  "static/css/main.c6399e3a.chunk.css.map": "/resume/static/css/main.c6399e3a.chunk.css.map",
   "static/media/App.scss": "/resume/static/media/mountain.8280c9b3.jpg",
   "static/media/PhotoCV-b&w.jpeg": "/resume/static/media/PhotoCV-b&w.afafd343.jpeg",
   "static/media/Project1.jpg": "/resume/static/media/Project1.0e7851f5.jpg",
@@ -22,6 +22,5 @@
   "static/media/logo.svg": "/resume/static/media/logo.5d5d9eef.svg",
   "static/media/sliding-notifications-card.jpg": "/resume/static/media/sliding-notifications-card.94f6ad96.jpg",
   "static/media/this-resume.jpg": "/resume/static/media/this-resume.dbf72b68.jpg",
-  "static/media/Contact.scss": "/resume/static/media/tree.c22e03bd.png",
-  "static/media/Education.scss": "/resume/static/media/watercolor4.fc532df7.png"
+  "static/media/Contact.scss": "/resume/static/media/tree.c22e03bd.png"
 }

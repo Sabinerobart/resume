@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "07d76c0fadc6f46b3bdf26bec2d029d8",
-    "url": "/resume/static/media/full-bloom.07d76c0f.png"
+    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
+    "url": "/resume/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "be487158cb58677c8758",
-    "url": "/resume/static/css/main.ff9e0535.chunk.css"
+    "revision": "8d57263a444f7883b4be",
+    "url": "/resume/static/css/main.c6399e3a.chunk.css"
   },
   {
     "revision": "699f89d957187d0ac949",
@@ -40,20 +40,16 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Nunito-Bold.974bca2b.ttf"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/resume/static/media/logo.5d5d9eef.svg"
+    "revision": "8d57263a444f7883b4be",
+    "url": "/resume/static/js/main.b7d029c7.chunk.js"
   },
   {
-    "revision": "be487158cb58677c8758",
-    "url": "/resume/static/js/main.736eff8b.chunk.js"
+    "revision": "07d76c0fadc6f46b3bdf26bec2d029d8",
+    "url": "/resume/static/media/full-bloom.07d76c0f.png"
   },
   {
     "revision": "afafd343aa2aad00f62fad300fbf0011",
     "url": "/resume/static/media/PhotoCV-b&w.afafd343.jpeg"
-  },
-  {
-    "revision": "fc532df770a15be6086fafbea7786049",
-    "url": "/resume/static/media/watercolor4.fc532df7.png"
   },
   {
     "revision": "5477cf46fef71c7b9dc5a019640415ca",
@@ -84,7 +80,7 @@ self.__precacheManifest = [
     "url": "/resume/static/css/2.b6bc5772.chunk.css"
   },
   {
-    "revision": "b2e5225542c768b738d158d336133eb1",
+    "revision": "b4539e5aa7a0f4f44c8c97f1c923f836",
     "url": "/resume/index.html"
   }
 ];
