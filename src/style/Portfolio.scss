@@ -1,9 +1,4 @@
 @import "../index";
-
-// .codepen {
-//   border-color: $main-color;
-// }
-
 .nav-tabs {
   margin: 10vh auto;
 }
@@ -15,8 +10,12 @@
 .portfolio-picture {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
   width: 100%;
-  filter: saturate(0);
   border: $border;
+  transition: 0.3s;
+}
+
+.picture-container .portfolio-picture {
+  filter: saturate(0);
 }
 
 .overlay {
@@ -42,11 +41,13 @@
     font-size: calc(0.5rem + 0.5vw);
     padding: 0 1rem;
   }
-  img {
-    position: absolute;
-    bottom: 1vh;
-    right: 1vh;
-  }
+}
+
+.overlay img,
+.plus-sign {
+  position: absolute;
+  bottom: 3vh;
+  right: 2vh;
 }
 
 @for $i from 1 through length($faded-colors) {
