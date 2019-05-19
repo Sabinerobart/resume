@@ -5,9 +5,8 @@
   align-items: center;
   min-height: 100vh;
   margin: 0 auto;
-  color: $wh;
-  background: url("../pictures/full-bloom.png"), rgba($main-color, 0.6);
-  // background: $bl;
+  color: $bl;
+  background: url("../pictures/full-bloom.png"), rgba($wh, 0.2);
 }
 
 .business-card {
@@ -146,12 +145,12 @@ h2 {
 .links {
   align-self: flex-end;
   margin: 4px 0;
-  color: rgba($wh, 0.8);
+  color: rgba($bl, 0.8);
   text-decoration: none;
   transition: 0.4s;
   span {
     font-size: calc(0.8rem + 0.2vw);
-    border-bottom: 1px dotted rgba($wh, 0.8);
+    border-bottom: 1px dotted rgba($bl, 0.8);
   }
   img {
     transition: 0.4s;
@@ -160,9 +159,9 @@ h2 {
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $wh;
+    color: $bl;
     span {
-      border-bottom: 1px solid $wh;
+      border-bottom: 1px solid $bl;
     }
     img {
       transform: scale(0.9);
@@ -172,7 +171,7 @@ h2 {
 
 .made-with {
   font-size: 0.8rem;
-  color: $wh;
+  color: $bl;
   margin-top: 5vh;
   align-self: center;
 }
