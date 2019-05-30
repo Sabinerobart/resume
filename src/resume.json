@@ -29,6 +29,7 @@
       "summary": "Dans le cadre de ma formation à la Wild Code School :",
       "highlights": [
         "Divers projets utilisant React, JavaScript, ES6, Sass, NodeJS.",
+        "Projet en cours : Réalisation d'une application Web inspirée des réseaux sociaux  : mise en ligne de photos, gestion des commentaires et messagerie point-à-point. Back-end : Création d’une API-Rest – Base de données MySQL – Utilisation de Node-Express pour la gestion des utilisateurs et du contenu (CRUD). Front-end : React",
         "Connaissance des bonnes pratiques du développement web : code propre, facilement maintenable.",
         "Travail d'équipe avec utilisation de Git | Git Workflow.",
         "Méthode agile | SCRUM.",
@@ -63,7 +64,7 @@
   ],
   "education": [
     {
-      "formation": "Développeur d'applications web / web-mobile",
+      "formation": "Développeur d'applications web | web-mobile",
       "field": "",
       "institution": "Wild Code School",
       "studyType": "Formation effectuée à la",
@@ -120,10 +121,11 @@
       "React",
       "Javascript - ES6",
       "Git - Github",
-      "NodeJS",
+      "NodeJS - MySQL",
+      "Workbench",
       "Sass",
-      "API",
-      "Reactstrap - Bootstrap",
+      "API-Rest",
+      "Reactstrap - Bootstrap - Material UI",
       "HTML - CSS",
       "Unix - Ubuntu",
       "Outils de graphisme (Photoshop - Figma)"
