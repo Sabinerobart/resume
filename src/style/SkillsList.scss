@@ -51,12 +51,7 @@
       transition: 0.8s;
     }
     div:nth-child(2) {
-      background: linear-gradient(
-        65deg,
-        nth($colors, $i),
-        transparent 80%,
-        transparent
-      );
+      background: nth($colors, $i);
       p {
         color: $wh;
       }
