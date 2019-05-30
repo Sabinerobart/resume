@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/resume/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "8d57263a444f7883b4be",
-    "url": "/resume/static/css/main.c6399e3a.chunk.css"
+    "revision": "dddd89d194c064f63731",
+    "url": "/resume/static/css/main.3621945a.chunk.css"
   },
   {
     "revision": "699f89d957187d0ac949",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Nunito-Bold.974bca2b.ttf"
   },
   {
-    "revision": "8d57263a444f7883b4be",
-    "url": "/resume/static/js/main.b7d029c7.chunk.js"
+    "revision": "dddd89d194c064f63731",
+    "url": "/resume/static/js/main.b382cd0c.chunk.js"
   },
   {
     "revision": "07d76c0fadc6f46b3bdf26bec2d029d8",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/resume/static/css/2.b6bc5772.chunk.css"
   },
   {
-    "revision": "b4539e5aa7a0f4f44c8c97f1c923f836",
+    "revision": "85860ee61a6ed44684ee7cb0af9e3849",
     "url": "/resume/index.html"
   }
 ];
